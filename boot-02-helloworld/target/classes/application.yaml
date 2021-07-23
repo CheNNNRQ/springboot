@@ -1,0 +1,28 @@
+person:
+  userName: zhangsan
+  boss: true
+  birth: 2000/12/3
+  age: 12
+  #  interests: [篮球,足球]
+  interests:
+    - 篮球
+    - 足球
+    - 12
+  animal: [猫,狗]
+#  score:
+#    english: 80
+#    math: 100
+  score: {english:80,math:100}
+  salarys:
+    - 100
+    - 50
+  # salary: [100,50]
+  pet:
+    name: 狗狗
+    weight: 50
+  all-pets:
+    sick:
+      - {name: agou,weight: 999}
+      - name: amao
+        weight: 333
+    health: [{name: aha,weight: 12},{name: ah2a,weight: 122}]
